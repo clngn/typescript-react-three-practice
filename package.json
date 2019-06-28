@@ -1,0 +1,30 @@
+{
+  "name": "typescript-react-three-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parcel": "parcel src/index.html",
+    "eslint": "eslint ./src/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "three": "^0.105.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/three": "^0.103.2",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "parcel": "^1.12.3",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  }
+}
